@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.row:hover{
+	         transition: all 1s;
+	         transform: rotateX(30deg);
+			 transform: rotateY(30deg);
+			 transform: rotateZ(10deg);
+          }
+.row img{
+	box-shadow:5px 5px 5px 5px #000000ed;
+	transition:all 2s;
+	
+}
+
+.row img:hover{
+	transform: rotate(7200deg) scale(2,2) translate(0px,0px);
+}
+
+.container-fluid{
+    animation:myfist 20s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes myfist{
+	0%  {background-image:url("../images/img_1.jpg");}
+	25%  {background-image:url("../images/img_2.jpg");}
+	50%  {background-image:url("../images/img_3.jpg");}
+	75%  {background-image:url("../images/img_4.jpg");}
+	100%  {background-image:url("../images/img_5.jpg");}
+	
+}
