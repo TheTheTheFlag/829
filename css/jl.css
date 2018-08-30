@@ -2,11 +2,15 @@
 
 .A:hover{
 	         transition: all 1s;
-	         transform: rotateY(360deg);
+			 transform: rotateX(30deg);
+	         transform: rotateY(30deg);
+			 transform: rotateZ(10deg);
           }
 .B:hover{
 	         transition: all 1s;
-	         transform: rotateY(360deg);
+	         transform: rotateX(-30deg);
+	         transform: rotateY(30deg);
+			 transform: rotateZ(-10deg);
           }
 .row img{
 	box-shadow:5px 5px 5px 5px #000000ed;
