@@ -19,10 +19,16 @@
 }
 
 .row img:hover{
-	transform: rotate(7200deg) scale(2,2) translate(0px,0px);
+	transform: rotate(7200deg) scale(0.7,0.7) translate(0px,0px);
 }
 
 .container-fluid{
+	animation-name: myfirst;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-play-state: running;
     animation:myfist 20s;
 	animation-iteration-count:infinite;
 }
