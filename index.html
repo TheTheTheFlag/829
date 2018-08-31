@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>简历</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery Tab菜单插件</title>
   <link rel="stylesheet" href="css/reset.min.css">
   <link rel="stylesheet" href="css/1.css">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/jl.css" rel="stylesheet">
-  
+  <link rel="stylesheet" type="text/css" href="css/demo.css">
+      
 </head>
 
 <body>
   <div class="container-fluid">
-       <div class="A">
+  <div class="A">
      <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-12">
 		    <p class="text-center bg-info">
@@ -40,27 +42,41 @@
 		</div>
      </div>
 	 </div>
-	 
 
-<div class="progress">
-  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-    Java<span class="sr-only">70% Complete (success)</span>
-  </div>
-</div>
-<div class="progress">
-  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-    MySQL<span class="sr-only">60% Complete</span>
-  </div>
-</div>
-<div class="progress">
-  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-    HTML<span class="sr-only">80% Complete (warning)</span>
-  </div>
-</div>
-<div class="progress">
-  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-    WEB<span class="sr-only">70% Complete (danger)</span>
-  </div>
+<div class="demo">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6">
+				<div class="progress green">
+					<h3 class="progress-title">Java</h3>
+					<div class="progress-bar" style="width:75%; background:#21da9a;">
+						<div class="progress-value">75%</div>
+					</div>
+				</div>
+
+				<div class="progress pink">
+					<h3 class="progress-title">MySQL</h3>
+					<div class="progress-bar" style="width:67%; background:#ff1170;">
+						<div class="progress-value">67%</div>
+					</div>
+				</div>
+
+				<div class="progress yellow">
+					<h3 class="progress-title">HTML5</h3>
+					<div class="progress-bar" style="width:85%; background:#ffa900;">
+						<div class="progress-value">85%</div>
+					</div>
+				</div>
+
+				<div class="progress blue">
+					<h3 class="progress-title">CSS3</h3>
+					<div class="progress-bar" style="width:75%; background:#294bdc;">
+						<div class="progress-value">75%</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 	 
@@ -174,22 +190,27 @@
   <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> 作品
   </button>
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#1" aria-controls="home" role="tab" data-toggle="tab">展示</a></li>
-    <li role="presentation"><a href="#2" aria-controls="profile" role="tab" data-toggle="tab">展示</a></li>
-    <li role="presentation"><a href="#3" aria-controls="messages" role="tab" data-toggle="tab">展示</a></li>
+    <li role="presentation" class="active"><a href="#1" aria-controls="home" role="tab" data-toggle="tab">1</a></li>
+    <li role="presentation"><a href="#2" aria-controls="profile" role="tab" data-toggle="tab">2</a></li>
+    <li role="presentation"><a href="#3" aria-controls="messages" role="tab" data-toggle="tab">3</a></li>
   </ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="1"><img src="images/zp1-1.jpg"  class="img-thumbnail" width=100%/></div>
-    <div role="tabpanel" class="tab-pane" id="2"><img src="images/zp3-1.jpg"  class="img-thumbnail" width=100%/></div>
-    <div role="tabpanel" class="tab-pane" id="3"><img src="images/zp5-1.jpg"  class="img-thumbnail" width=100%/></div>
+    <div role="tabpanel" class="tab-pane active" id="1"><img src="img/01.jpg"  class="img-thumbnail" width=100%/></div>
+    <div role="tabpanel" class="tab-pane" id="2"><img src="img/02.jpg"  class="img-thumbnail" width=100%/></div>
+    <div role="tabpanel" class="tab-pane" id="3"><img src="img/03.jpg"  class="img-thumbnail" width=100%/></div>
   </div>
 
 </div>
 
+  
+    
+
+
   <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span><a href="#TOP">TOP</a></button>
   <a name="BOTTOM"></a>
+
   </div>
 <!-- //tab-wrapper -->
 <script src="bootstrap/js/jquery.min.js"></script>
